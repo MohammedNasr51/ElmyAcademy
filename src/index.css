@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary-purble: #A239F0;
+    --color-dark-purble: #601596;
+    --color-lighter-purble: #D9ADF3;
+    --color-light-purble: #B96FEB;
+}
+
+@theme {
+    --animate-popup: popup 1s ease-in-out infinite;
+    --animate-popup-delay: 0.5s;
+
+    @keyframes popup {
+
+        0%,
+        100% {
+            transform: scale(1.1);
+        }
+
+        50% {
+            transform: scale(0.9);
+        }
+    }
+}
