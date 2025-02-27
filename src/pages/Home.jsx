@@ -10,6 +10,7 @@ import CoursesSlider from "../components/CoursesSlider";
 import SecondHeroSection from "../components/SecondHeroSection";
 import TestmonialsSection from "../components/TestmonialsSection";
 import Footer from "../components/Footer";
+import PreFooterSction from "../components/PreFooterSction";
 export default function Home() {
   return (
     <>
@@ -25,7 +26,8 @@ export default function Home() {
       </div>
       <SecondHeroSection bgImg={firstBgImg} otherImg={man2Img} />
       <TestmonialsSection />
-      <Footer/>
+      <PreFooterSction />
+      <Footer />
     </>
   );
 }
