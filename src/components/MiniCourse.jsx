@@ -7,7 +7,7 @@ export default function MiniCourse({ title, img }) {
       <img src={img} alt={title} className="w-full" />
       <h2 className="py-4 px-3 font-bold text-right my-3">{title}</h2>
 
-      <div className="flex items-center justify-end py-3 px-4">
+      <div className="flex items-center justify-end py-3 px-4 mt-auto">
         <Link className="flex items-center gap-2 text-primary-purble border-2 border-dark-purble rounded-full py-2 px-6">
           <img src={circleArrow} alt="circle arrow" />
           معرفة المزيد

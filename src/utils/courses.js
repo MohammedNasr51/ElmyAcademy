@@ -34,29 +34,29 @@ const courses = [
 ];
 const secondSecCourses = [
   {
-    id: 1,
+    id: 4,
     title: "تطوير تطبيقات الويب باستخدام React",
     img: course4Img,
   },
   {
-    id: 2,
+    id: 5,
     title: "تطوير تطبيقات الويب باستخدام Angular",
     img: course5Img,
   },
   {
-    id: 3,
+    id: 6,
     title: "تطوير تطبيقات الويب باستخدام Vue",
     img: course6Img,
   },
   {
-    id: 4,
+    id: 7,
     title: "تطوير تطبيقات الويب باستخدام Vue",
     img: course7Img,
   },
 ];
 const moreCourses = [
   {
-    id: 1,
+    id: 8,
     title: "تطوير تطبيقات الويب باستخدام React",
     img: course1Img,
     price: 200,
@@ -66,7 +66,7 @@ const moreCourses = [
 
 
   {
-    id: 2,
+    id: 9,
     title: "تطوير تطبيقات الويب باستخدام Angular",
     img: course2Img,
     price: 250,
@@ -74,7 +74,7 @@ const moreCourses = [
     videos: 25,
   },
   {
-    id: 3,
+    id: 10,
     title: "تطوير تطبيقات الويب باستخدام Vue",
     img: course3Img,
     price: 150,
@@ -82,7 +82,7 @@ const moreCourses = [
     videos: 15,
   },
   {
-    id: 4,
+    id: 11,
     title: "تطوير تطبيقات الويب باستخدام Vue",
     img: course1Img,
     price: 150,

@@ -10,12 +10,12 @@ export default function Course({ title, img, price, lessons, videos }) {
       <img src={img} alt={title} className="w-full"/>
       <h2 className="py-4 px-3 font-bold text-right">{title}</h2>
       <div className="flex justify-between items-center">
-        <p className="flex items-center py-3 px-4 text-primary-purble">
+        <p className="flex items-center py-3 px-3 text-primary-purble">
           <span className="text-black pe-2">{videos}</span>
           : فيديوهات
           <img src={playIcon} alt="play icon" className="px-2"/>
         </p>
-        <p className="flex items-center py-3 px-4 text-primary-purble">
+        <p className="flex items-center py-3 px-3 text-primary-purble">
           <span className="text-black pe-2">{lessons}</span>
           : دروس
           <img src={bookIcon} alt="book icon" />
