@@ -1,0 +1,54 @@
+{
+    "header": {
+      "joinNow": "Join Now",
+      "goals": "Do you have big goals? We have courses to suit you",
+      "subscribe": "Subscribe to our newsletter",
+      "subscribeDescription": "Trainers from all over the world teach millions of learners on Elmy. We provide the tools and skills needed to teach what you love."
+    },
+    "navbar": {
+      "home": "Home",
+      "aboutUs": "About Us",
+      "howItWorks": "How It Works",
+      "registerAsInstructor": "Register as Instructor",
+      "contactUs": "Contact Us",
+      "categories": "Course Categories",
+      "language": "EN",
+      "login": "Login"
+    },
+    "footer": {
+      "importantLinks": "Important Links",
+      "supportAndPolicies": "Support and Policies",
+      "contactDirectly": "Contact Directly",
+      "whatsapp": "WhatsApp: 966597431779",
+      "email": "Email: support@elmyacademy.com",
+      "subscribe": "Subscribe to our newsletter",
+      "subscribeDescription": "Trainers from all over the world teach millions of learners on Elmy. We provide the tools and skills needed to teach what you love.",
+      "subscribeButton": "Subscribe Now",
+      "importantLinksList": ["Home", "About Us", "How It Works", "Register as Instructor", "National Address"],
+      "supportAndPoliciesList": ["Contact Us", "Terms and Conditions", "Usage and Return Policy", "Privacy Policy", "Support and Help"]
+    },
+    "courses": {
+      "mostPopular": "Most Popular",
+      "beginnerFavorites": "Beginner Favorites",
+      "latest": "Latest",
+      "enrollNow": "Enroll Now",
+      "learnMore": "Learn More"
+    },
+    "testimonials": {
+      "title": "How do learners achieve mastery?",
+      "description": "Whether you want to learn or share what you know, you've come to the right place. As a global learning destination",
+      "certifiedTrainers": "Certified Trainers",
+      "trainees": "Trainees"
+    },
+    "callToAction": {
+      "title": "Register as an Instructor Now and Gain More Fame",
+      "description": "Be part of the learning community and help others acquire new skills.",
+      "button": "Register Now"
+    },
+    "newsletter": {
+      "title": "Subscribe to our newsletters",
+      "description": "Be the first to know about the latest courses and educational articles directly in your inbox.",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    }
+  }

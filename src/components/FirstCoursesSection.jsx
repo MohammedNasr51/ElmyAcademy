@@ -1,10 +1,14 @@
 import { useState } from "react";
 import COURSES from "../utils/courses";
 import Course from "./Course";
+import useFetch from "../hooks/useFetch";
+import { fetchCourses } from "../utils/http";
 
 export default function FirstCoursesSection() {
-  const [courses, setCourses] = useState(COURSES);
   const [active, setActive] = useState("الأحدث");
+  const { data, error, isFetching } = useFetch(fetchCourses, COURSES);
+
+  // const fitData = data.filter((course) => course.id < 4);
 
   function shuffleArray(array) {
     return array.sort(() => Math.random() - 0.3);
@@ -12,7 +16,7 @@ export default function FirstCoursesSection() {
 
   function handleSelectCategory(category) {
     setActive(category);
-    setCourses((prev) => shuffleArray(prev));
+    // setCourses((prev) => shuffleArray(prev));
   }
 
   return (
@@ -39,9 +43,13 @@ export default function FirstCoursesSection() {
         </ul>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto my-5">
-        {courses.map((course) => (
-          <Course key={course.title + course.id} {...course} />
-        ))}
+        {isFetching && <p>Loading...</p>}
+        {error && <p>Error: {error}</p>}
+        {!isFetching &&
+          !error &&
+          data.map((course) => (
+            <Course key={course.title + course.id} {...course} />
+          ))}
       </div>
     </div>
   );
