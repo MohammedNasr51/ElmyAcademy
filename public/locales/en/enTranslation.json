@@ -51,4 +51,8 @@
       "placeholder": "Enter your email",
       "button": "Subscribe"
     }
+    ,"dashboard": {
+        "title":"Dashboard",
+        "main":"Main"
+    }
   }

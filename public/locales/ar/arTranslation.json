@@ -1,54 +1,97 @@
 {
-    "header": {
-      "joinNow": "اشترك الآن",
-      "goals": "هل لديك أهداف كبيرة؟ لدينا دورات لتتناسبك",
-      "subscribe": "اشترك في نشرتنا البريدية",
-      "subscribeDescription": "يقوم المدربون من جميع أنحاء العالم بتعليم ملايين المتعلمين على علمي. نحن نقدم الأدوات والمهارات اللازمة لتعليم ما تحب."
-    },
-    "navbar": {
+  "header": {
+    "joinNow": "اشترك الآن",
+    "goals": "هل لديك أهداف كبيرة؟ لدينا دورات لتتناسبك",
+    "subscribe": "اشترك في نشرتنا البريدية",
+    "subscribeDescription": "يقوم المدربون من جميع أنحاء العالم بتعليم ملايين المتعلمين على علمي. نحن نقدم الأدوات والمهارات اللازمة لتعليم ما تحب."
+  },
+  "navbar": {
+    "home": "الرئيسية",
+    "aboutUs": "من نحن",
+    "howItWorks": "كيف نعمل",
+    "registerAsInstructor": "التسجيل كمدرب",
+    "contactUs": "تواصل معنا",
+    "categories": "فئات الدورات",
+    "language": "EN",
+    "login": "تسجيل دخول"
+  },
+  "footer": {
+    "importantLinks": "روابط هامة",
+    "supportAndPolicies": "الدعم و السياسات",
+    "contactDirectly": "تواصل مباشرة",
+    "whatsapp": "واتساب :966597431779",
+    "email": "البريد الالكتروني:support@elmyacademy.com",
+    "subscribe": "اشترك في نشرتنا البريدية",
+    "subscribeDescription": "يقوم المدربون من جميع أنحاء العالم بتعليم ملايين المتعلمين على علمي. نحن نقدم الأدوات والمهارات اللازمة لتعليم ما تحب.",
+    "subscribeButton": "اشترك الآن",
+    "importantLinksList": {
       "home": "الرئيسية",
       "aboutUs": "من نحن",
       "howItWorks": "كيف نعمل",
       "registerAsInstructor": "التسجيل كمدرب",
+      "nationalAddress": "العنوان الوطني"
+    },
+    "supportAndPoliciesList": {
       "contactUs": "تواصل معنا",
-      "categories": "فئات الدورات",
-      "language": "EN",
-      "login": "تسجيل دخول"
+      "termsAndConditions": "الشروط و الأحكام",
+      "usageAndReturnPolicy": "سياسة الاستخدام والاسترجاع",
+      "privacyPolicy": "سياسة الخصوصية",
+      "supportAndHelp": "الدعم و المساعدة"
+    }
+  },
+  "courses": {
+    "mostPopular": "الأكثر شعبية",
+    "beginnerFavorites": "المفضلة للمبتدئين",
+    "latest": "الأحدث",
+    "enrollNow": "سجل الآن",
+    "learnMore": "معرفة المزيد"
+  },
+  "testimonials": {
+    "title": "كيف يحقق المتعلمون ملكة الفهم؟",
+    "description": "سواء كنت ترغب في التعلم أو مشاركة ما تعرفه، فقد وصلت إلى المكان الصحيح. باعتبارنا وجهة عالمية للتعلم",
+    "certifiedTrainers": "مدرب مُعتمد",
+    "trainees": "مـتدرب"
+  },
+  "callToAction": {
+    "title": "سجل كمدرب الآن وحقق شهرة أكبر",
+    "description": "كن جزءًا من مجتمع التعلم وساعد الآخرين في اكتساب مهارات جديدة.",
+    "button": "سجل الآن"
+  },
+  "newsletter": {
+    "title": "اشترك في نشراتنا الدورية",
+    "description": "كن أول من يعرف عن أحدث الدورات والمقالات التعليمية مباشرة في بريدك الإلكتروني.",
+    "placeholder": "أدخل بريدك الإلكتروني",
+    "button": "اشتراك"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "main": "الرئيسية",
+    "sidebar": {
+      "greeting": "أهلا",
+      "username": "أحمد عبدالله",
+      "dashboard": "لوحة تحكم",
+      "myCourses": "دوراتي",
+      "favorites": "المفضلة",
+      "accountSettings": "إعدادات الحساب",
+      "logout": "تسجيل خروج",
+      "courses": "دورات",
+      "certificate": "شهاده",
+      "signed": "تم التسجيل"
     },
-    "footer": {
-      "importantLinks": "روابط هامة",
-      "supportAndPolicies": "الدعم و السياسات",
-      "contactDirectly": "تواصل مباشرة",
-      "whatsapp": "واتساب :966597431779",
-      "email": "البريد الالكتروني:support@elmyacademy.com",
-      "subscribe": "اشترك في نشرتنا البريدية",
-      "subscribeDescription": "يقوم المدربون من جميع أنحاء العالم بتعليم ملايين المتعلمين على علمي. نحن نقدم الأدوات والمهارات اللازمة لتعليم ما تحب.",
-      "subscribeButton": "اشترك الآن",
-      "importantLinksList": ["الرئيسية", "من نحن", "كيف نعمل", "التسجيل كمدرب", "العنوان الوطني"],
-      "supportAndPoliciesList": ["تواصل معنا", "الشروط و الأحكام", "سياسة الاستخدام والاسترجاع", "سياسة الخصوصية", "الدعم و المساعدة"]
+    "greetingSection":{
+        "greeting":"أهلا",
+        "message":"إشترك الآن سواء كنت ترغب في التعلم أو مشاركة ما تعرفه، فقد وصلت إلى المكان الصحيح ",
+        "link":"شاهد الدورات"
     },
-    "courses": {
-      "mostPopular": "الأكثر شعبية",
-      "beginnerFavorites": "المفضلة للمبتدئين",
-      "latest": "الأحدث",
-      "enrollNow": "سجل الآن",
-      "learnMore": "معرفة المزيد"
+    "mainSection":{
+       "registeredCourses" :"الكورسات المسجلة",
+       "completedCourses" :"الكورسات المكتملة",
+       "unCompletedCourses" :"الكورسات الغير مكتملة"
     },
-    "testimonials": {
-      "title": "كيف يحقق المتعلمون ملكة الفهم؟",
-      "description": "سواء كنت ترغب في التعلم أو مشاركة ما تعرفه، فقد وصلت إلى المكان الصحيح. باعتبارنا وجهة عالمية للتعلم",
-      "certifiedTrainers": "مدرب مُعتمد",
-      "trainees": "مـتدرب"
-    },
-    "callToAction": {
-      "title": "سجل كمدرب الآن وحقق شهرة أكبر",
-      "description": "كن جزءًا من مجتمع التعلم وساعد الآخرين في اكتساب مهارات جديدة.",
-      "button": "سجل الآن"
-    },
-    "newsletter": {
-      "title": "اشترك في نشراتنا الدورية",
-      "description": "كن أول من يعرف عن أحدث الدورات والمقالات التعليمية مباشرة في بريدك الإلكتروني.",
-      "placeholder": "أدخل بريدك الإلكتروني",
-      "button": "اشتراك"
+    "myCoursesSection":{
+      "all":"الكل",
+      "completed":"الدورات المكتملة",
+      "unCompleted":"الدورات غير مكتملة"
     }
   }
+}

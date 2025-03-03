@@ -1,25 +1,36 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-    --color-primary-purble: #A239F0;
-    --color-dark-purble: #601596;
-    --color-lighter-purble: #D9ADF3;
-    --color-light-purble: #B96FEB;
-}
+/* Custom container class */
+@layer components {
+    .container {
+        width: 100%;
+        padding-right: 1rem;
+        /* 16px */
+        padding-left: 1rem;
+        /* 16px */
+        margin-right: auto;
+        margin-left: auto;
 
-@theme {
-    --animate-popup: popup 1s ease-in-out infinite;
-    --animate-popup-delay: 0.5s;
-
-    @keyframes popup {
-
-        0%,
-        100% {
-            transform: scale(1.1);
+        @screen sm {
+            max-width: 576px;
         }
 
-        50% {
-            transform: scale(0.9);
+        @screen md {
+            max-width: 768px;
+        }
+
+        @screen lg {
+            max-width: 992px;
+        }
+
+        @screen xl {
+            max-width: 1200px;
+        }
+
+        @screen 2xl {
+            max-width: 1400px;
         }
     }
 }

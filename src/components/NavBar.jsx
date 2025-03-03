@@ -42,11 +42,14 @@ export default function NavBar() {
             onMouseEnter={() => setCategoryHovered("groupCategories")}
           >
             <img src={gridIcon} alt="grid icon" className="me-2" />
+            <span>
+
             فئات الدورات
+            </span>
           </button>
           <div
-            className={`absolute flex top-18 bg-white p-4 rounded-lg shadow-lg w-fit opacity-0 scale-95 ${
-              categoryHovered && "opacity-100 scale-100"
+            className={`absolute  top-18 bg-white p-4 rounded-lg shadow-lg w-fit opacity-0 scale-95 hidden ${
+              categoryHovered && "opacity-100 scale-100 flex"
             } transition-all duration-200 ease-in-out delay-75`}
             onMouseLeave={() => setCategoryHovered("")}
           >

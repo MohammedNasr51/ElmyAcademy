@@ -8,12 +8,15 @@ i18n
   .use(LanguageDetector) // Detects user language
   .use(initReactI18next) // Bind with React
   .init({
-    en: {
-      translation: enTranslation,
+    resources: {
+      en: {
+        translation: enTranslation,
+      },
+      ar: {
+        translation: arTranslation,
+      },
     },
-    ar: {
-      translation: arTranslation,
-    },
+    lng: "ar", // Default language
     fallbackLng: "ar", // Default language
     interpolation: {
       escapeValue: false, // React handles escaping

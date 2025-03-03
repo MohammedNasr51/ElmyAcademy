@@ -1,6 +1,5 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './utils/i18n'; // Import i18n config
 import './index.css'
 import 'swiper/css';
 import 'swiper/css/navigation';
