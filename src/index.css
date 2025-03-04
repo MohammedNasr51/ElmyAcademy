@@ -33,4 +33,9 @@
             max-width: 1400px;
         }
     }
+
+    .btn {
+        @apply bg-gradient-to-r from-primary-purble via-blue-700 to-primary-purble hover:from-blue-700 hover:via-primary-purble hover:to-blue-700 transition-all duration-200;
+        ;
+    }
 }

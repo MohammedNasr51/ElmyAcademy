@@ -28,8 +28,8 @@ export default function MyCourses() {
   });
 
   return (
-    <div className="mx-1 my-14 ">
-      <ul className="flex flex-wrap justify-center gap-4 mx-auto w-full">
+    <div className="mx-1 my-14 w-full">
+      <ul className="flex flex-wrap justify-center gap-4 mx-auto ">
         {coursesCategories.map((item) => (
           <li key={item} onClick={() => handleSelectCategory(item)}>
             <button
@@ -43,10 +43,10 @@ export default function MyCourses() {
         ))}
       </ul>
 
-      <div className="mt-10 w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mx-3">
+      <div className="mt-10 w-full mx-auto md:mx-5">
+        <div className="grid grid-cols-1  lg:grid-cols-2 xl:grid-cols-3 gap-1 mx-3 justify-center">
           {filteredCourses.map((course) => (
-            <div key={course.id} className="mx-2">
+            <div key={course.id}>
               <Course {...course} />
             </div>
           ))}

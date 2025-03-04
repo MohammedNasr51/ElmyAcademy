@@ -17,11 +17,10 @@ export default function Course({
   id,
   rating,
   enrollments,
-  isBookmarked
+  isBookmarked,
 }) {
   const { setCourses } = useContext(AuthContext);
   const handleBookmark = () => {
-    
     setCourses((prev) => {
       const updatedCourses = prev.map((course) => {
         if (course.id === id) {
@@ -39,7 +38,7 @@ export default function Course({
   return (
     <div
       dir="rtl"
-      className="mx-auto rounded-2xl border-2 border-primary-purble flex flex-col w-[16rem]"
+      className="my-2 mx-auto rounded-2xl border-2 border-primary-purble flex flex-col w-[16rem]"
     >
       <img src={image} alt={name} className="w-full" />
       <h2 className="py-4 px-3 font-bold text-right">{name}</h2>

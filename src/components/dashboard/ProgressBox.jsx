@@ -11,7 +11,7 @@ const colorClasses = {
   "custom-purble": "bg-custom-purble/50 text-custom-purble",
 };
 
-export default function ProgressBox({ icon, color, title }) {
+export default function ProgressBox({ icon, color, title, count }) {
   const colorClass = colorClasses[color] || "";
 
   return (

@@ -27,7 +27,7 @@ export default function NavBar() {
   return (
     <nav
       dir="rtl"
-      className="sticky flex items-center justify-between bg-stone-50 py-3 px-5 rounded-full top-0 z-50"
+      className="sticky flex items-center justify-between bg-stone-50 py-3 px-5 rounded-full top-0 z-[51]"
     >
       <ul className="flex items-center gap-4">
         <li>
@@ -48,8 +48,8 @@ export default function NavBar() {
             </span>
           </button>
           <div
-            className={`absolute  top-18 bg-white p-4 rounded-lg shadow-lg w-fit opacity-0 scale-95 hidden ${
-              categoryHovered && "opacity-100 scale-100 flex"
+            className={`absolute  top-full right-0 bg-white p-4 rounded-lg shadow-lg w-fit opacity-0 scale-95 ${
+              categoryHovered ? "opacity-100 scale-100 flex":" hidden"
             } transition-all duration-200 ease-in-out delay-75`}
             onMouseLeave={() => setCategoryHovered("")}
           >

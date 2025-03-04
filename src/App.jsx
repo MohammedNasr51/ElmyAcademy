@@ -8,6 +8,8 @@ import { I18nextProvider } from "react-i18next"; // Import I18next
 import Main from "./components/dashboard/Main";
 import MyCourses from "./components/dashboard/MyCourses";
 import Favorites from "./components/dashboard/Favorites";
+import TrainerMain from "./components/dashboard/TrainerMain";
+import TrainerMyCourses from "./components/dashboard/TrainerMyCourses";
 
 function App() {
   return (
@@ -17,11 +19,18 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/dashboard" element={<DashBoard />}>
-              <Route path="main" element={<Main />} />
-              <Route path="myCourses" element={<MyCourses />} />
-              <Route path="favorites" element={<Favorites />} />
-              <Route path="accountSettings" element={<DashBoard />} />
-              <Route path="logout" element={<DashBoard />} />
+              <Route path="student/main" element={<Main />} />
+              <Route path="student/myCourses" element={<MyCourses />} />
+              <Route path="student/favorites" element={<Favorites />} />
+              <Route path="student/accountSettings" element={<></>} />
+              <Route path="student/logout" element={<></>} />
+              <Route path="trainer/main" element={<TrainerMain />} />
+              <Route path="trainer/main/courses" element={<TrainerMyCourses/>} />
+              <Route path="trainer/courses" element={<TrainerMyCourses/>} />
+              <Route path="trainer/ordersProfits" element={<></>} />
+              <Route path="trainer/accountSettings" element={<></>} />
+              <Route path="trainer/logout" element={<></>} />
+              
             </Route>
           </Routes>
         </Router>

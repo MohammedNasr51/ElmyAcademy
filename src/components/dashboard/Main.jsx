@@ -27,7 +27,7 @@ export default function Main() {
   return (
     <section className="m-5">
       <GreetingHeader />
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 my-7">
+      <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center xl:grid-cols-3 gap-5 my-7">
         {progressBoxes.map((box) => (
           <ProgressBox
             key={box.title}

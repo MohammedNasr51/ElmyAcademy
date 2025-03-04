@@ -8,17 +8,24 @@ export default function Favorites() {
 
   const favorites = courses.filter((course) => course.isBookmarked);
 
-
   return (
-    <div className="mx-1 my-10">
-      <div className="mt-10 w-full">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-3">
-          {favorites.map((course) => (
-            <div key={course.id+Math.random()+course.image} className="mx-2">
-              <Course {...course} />
-            </div>
-          ))}
-        </div>
+    <div className="mx-1 my-[55px] w-[560px] max-w-full md:w-full">
+      <div className=" w-full mx-auto md:mx-5">
+        {favorites.length > 0 && (
+          <div className="grid grid-cols-1  lg:grid-cols-2 xl:grid-cols-3 gap-1 mx-3 justify-center">
+            {favorites &&
+              favorites.map((course) => (
+                <div key={course.id + Math.random() + course.image}>
+                  <Course {...course} />
+                </div>
+              ))}
+          </div>
+        )}
+        {favorites.length === 0 && (
+          <h2 className="text-primary-purble text-2xl font-bold w-full mx-auto text-center flex justify-center items-center h-[50vh]">
+            لم تقم بإضافة أي دورة للمفضلة
+          </h2>
+        )}
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="relative min-h-screen flex flex-col justify-end">
       {/* Section 2: Call to Action */}
-      <section className="bg-gradient-to-r from-blue-500 to-purple-600 py-10 md:py-16 px-6 text-white w-[90%] sm:w-[80%] mx-auto rounded-3xl absolute top-0 left-[10%]">
+      <section className="bg-gradient-to-r from-blue-500 to-purple-600 py-10 md:py-16 px-6 text-white w-[90%] sm:w-[80%] mx-auto rounded-3xl z-10 absolute top-0 left-[5%] md:left-[10%]">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="bg-white rounded-full py-2 px-2 w-full md:w-auto mb-4 md:mb-0 min-w-1/3  flex justify-between text-right">
             <button className="flex items-center justify-center bg-gradient-to-r from-primary-purble via-blue-600 to-primary-purble w-fit px-8 py-3 rounded-full hover:from-blue-700 hover:via-primary-purble hover:to-blue-700">
@@ -36,7 +36,7 @@ export default function Footer() {
       </section>
 
       {/* Section 3: Newsletter Subscription */}
-      <section className="bg-gray-900 text-white py-16 px-6 rounded-t-3xl mt-40 sm:mt-44 flex-grow">
+      <section className="bg-gray-900 text-white pt-32 pb-4 md:py-16 px-6 rounded-t-3xl mt-40 sm:mt-44 flex-grow">
         <div
           className="w-[90%] mx-auto text-center flex flex-col lg:flex-row items-center justify-between lg:text-right"
           dir="rtl"

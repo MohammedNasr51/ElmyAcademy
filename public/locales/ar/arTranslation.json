@@ -76,7 +76,14 @@
       "logout": "تسجيل خروج",
       "courses": "دورات",
       "certificate": "شهاده",
-      "signed": "تم التسجيل"
+      "signed": "تم التسجيل",
+      "trainer":{
+        "dashboard":"لوحة التحكم",
+        "courses":"الدورات",
+        "ordersProfits":"الطلبات والأرباح",
+        "accountSettings":"إعدادات الحساب",
+        "logout":"تسجيل خروج"
+      }
     },
     "greetingSection":{
         "greeting":"أهلا",
@@ -86,12 +93,26 @@
     "mainSection":{
        "registeredCourses" :"الكورسات المسجلة",
        "completedCourses" :"الكورسات المكتملة",
-       "unCompletedCourses" :"الكورسات الغير مكتملة"
+       "unCompletedCourses" :"الكورسات الغير مكتملة",
+       "trainer":{
+        "totalProfits":"جميع الأرباح",
+        "activeCourses":"الدورات النشطة",
+        "studentsNumber":"عدد الطلاب"
+       }
     },
     "myCoursesSection":{
       "all":"الكل",
       "completed":"الدورات المكتملة",
       "unCompleted":"الدورات غير مكتملة"
+    },
+    "traniderPagesTitle":
+    {
+      "dashboard":"لوحة التحكم",
+      "courses":"قائمة دوراتي",
+      "addCourse":"إضافة دورة جديدة",
+      "ordersProfits":"الطلبات والأرباح",
+      "accountSettings":"الاعدادات",
+      "logout":"تسجيل خروج"
     }
   }
 }
