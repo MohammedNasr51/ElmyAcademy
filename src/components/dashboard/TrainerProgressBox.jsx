@@ -13,7 +13,11 @@ export default function TrainerProgressBox({ icon, title, count }) {
         <img src={icon} alt={icon} className="w-[30px] object-contain " />
       </div>
       <p className="font-bold text-3xl m-2">
-        {title === "dashboard.mainSection.trainer.totalProfits" && "$"}
+        {(title === "dashboard.mainSection.trainer.totalProfits" ||
+          title === "dashboard.trainerProfitsSection.totalProfits" ||
+          title === "dashboard.trainerProfitsSection.pendingProfits" ||
+          title === "dashboard.trainerProfitsSection.profitsCouldWithdraw") &&
+          "$"}
         {count}
       </p>
       <p className="font-normal text-gray-500">{t(title)}</p>

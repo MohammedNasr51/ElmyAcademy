@@ -9,7 +9,6 @@ import { AuthContext } from "../../context/AuthContext";
 import { t } from "i18next";
 import { Link } from "react-router";
 
-
 const progressBoxes = [
   {
     icon: dolarIcon,
@@ -78,10 +77,10 @@ export default function TrainerMain() {
           </div>
           <div className="p-4 flex justify-center">
             <Link
-              to={"courses"}
+              to={"/dashboard/trainer/courses"}
               onClick={() => {
                 setSecondDashboardTitle(
-                  t("dashboard.traniderPagesTitle.courses")
+                  t("dashboard.tranierPagesTitle.courses")
                 );
                 setDashBoardTitle(t("dashboard.traniderPagesTitle.courses"));
               }}

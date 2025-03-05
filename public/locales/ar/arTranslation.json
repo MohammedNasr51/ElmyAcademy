@@ -114,5 +114,25 @@
       "accountSettings":"الاعدادات",
       "logout":"تسجيل خروج"
     }
+    ,"trainerCoursesTable":{
+      "courseName":"اسم الكورس",
+      "courseDuration":"مدة الكورس",
+      "studentsNumber":"عدد الطلاب",
+      "courseRating":"التقييم",
+      "courseControl":"التحكم",
+      "addCourse":"إضافة دورة جديدة",
+      "getProfits":"سحب الأرباح"
+    },
+    "trainerProfitsSection":{
+      "totalProfits":"جميع الأرباح",
+      "pendingProfits":"الأرباح المعلقة",
+      "profitsCouldWithdraw":"أرباح يمكن سحبها",
+      "withdraw":"سحب الأرباح",
+      "courseName":"اسم الكورس",
+      "studentName":"اسم الطالب",
+      "price":"السعر",
+      "paidStatus":"حالة الدفع",
+      "date":"التاريخ"
+    }
   }
 }
