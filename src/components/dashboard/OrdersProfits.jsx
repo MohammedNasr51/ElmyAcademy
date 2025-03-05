@@ -2,6 +2,8 @@ import { useContext } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import TrainerProgressBox from "./TrainerProgressBox";
 import dolarIcon from "../../assets/dolar-icon.svg";
+import upGreenArrow from "../../assets/up-green-arrow.svg";
+import downRedArrow from "../../assets/down-red-arrow.svg";
 import { Link } from "react-router";
 import { t } from "i18next";
 
@@ -23,7 +25,7 @@ const progressBoxes = [
   },
 ];
 
-const courses = Array(7).fill({
+const profites = Array(7).fill({
   name: "Introduction to Computer Science",
   studentName: "احمد محمد محمود",
   price: "$500",
@@ -86,9 +88,15 @@ export default function OrdersProfits() {
                 </tr>
               </thead>
               <tbody>
-                {courses.map((course, index) => (
+                {profites.map((course, index) => (
                   <tr key={index} className="border-b text-sm">
-                    <td className="p-3">{course.name}</td>
+                    <td className="p-3 flex gap-3">
+                      <img
+                        src={index < 3 ? upGreenArrow : downRedArrow}
+                        alt="green up arrow"
+                      />
+                      {course.name}
+                    </td>
                     <td className="p-3">{course.studentName}</td>
                     <td className="p-3">{course.price}</td>
                     <td className="p-3">{course.paidStatus}</td>
